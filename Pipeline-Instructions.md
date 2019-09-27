@@ -27,7 +27,7 @@ aws ssm put-parameter \
     --name "/service/amplifyapp/github/token" \
     --description "Github Token for Cloudformation Stack amplifyapp-pipeline" \
     --type "String" \
-    --value "639d17ed7aa01520a0b752b7e4ccf19f0b328b63"
+    --value "token"
 
 aws ssm put-parameter \
     --name "/service/amplifyapp/github/user" \
